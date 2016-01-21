@@ -1,7 +1,7 @@
 Popup Views
 =========================
 
-Popups  is a Meteor package that adds helper functions and event listener  for easily creating  and removeing views, without directly specifying them them in HTML (Jade or whatever). It's especially convenient for popup management. Supports bootstrap modals.
+Popups  is a Meteor package that adds helper functions and event listener  for easily creating  and removeing views, without directly specifying them in HTML (Jade or whatever). It's especially convenient for popup management. Supports bootstrap modals.
 
 
 ## Methods
@@ -32,5 +32,6 @@ Template.templatename.events({
     $(event.target). trigger("popDown")
   }
 })
+`
 
-Bootstrap modals will be automatically removed from the DOM if they are closed and do not require popDown event or method to be called.
+Bootstrap modals will be automatically removed from the DOM if they are closed and do not require popDown event or method.
