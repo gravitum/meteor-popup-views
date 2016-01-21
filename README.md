@@ -34,4 +34,4 @@ Template.templatename.events({
 })
 `
 
-Bootstrap modals will be automatically removed from the DOM if they are closed and do not require popDown event or method.
+Bootstrap modals will be automatically removed from the DOM if they are closed and do not require popDown event or method. 

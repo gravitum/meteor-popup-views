@@ -11,15 +11,15 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.2.1');
-  api.use('ecmascript');
-  api.addFiles('modal.js');
-  api.addFiles('popups.js');
+  api.versionsFrom('METEOR@1.0');
+  api.use('jquery', 'client');
+  api.addFiles('modal.js', 'client');
+  api.addFiles('popups.js', 'client');
 });
 
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('gravitum:popups');
+  api.use('gravitum:popup-views');
   api.addFiles('popups-tests.js');
 });
