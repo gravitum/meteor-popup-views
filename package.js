@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'gravitum:template-popups',
+  name: 'gravitum:popup-views',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: '',
@@ -13,6 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use('ecmascript');
+  api.addFiles('modal.js');
   api.addFiles('popups.js');
 });
 
