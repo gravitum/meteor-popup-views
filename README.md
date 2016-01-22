@@ -8,9 +8,9 @@ Popups  is a Meteor package that adds helper functions and event listener  for e
 
 
 `
-Meteor.popUp("templateName", data)
+Meteor.popUp("templateName", data, callback)
 `
-Template.templateName will be rendered into the dom with data as data context. If the template contains  bootstrap modal , it will be shown.
+Template.templateName will be rendered into the dom with data as data context. If the template contains  bootstrap modal , it will be shown. Callback is optional.
 
 
 `

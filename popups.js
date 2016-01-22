@@ -62,6 +62,7 @@ var popDown =  Meteor.popDown = function popDown (name) {
 };
 
 Meteor.popUp = function popUp (name, arg, cb) {
+  if(!arg) arg = {};
   var $wraper, err, error, frag, wraper;
   try {
     if (names[name]) {
